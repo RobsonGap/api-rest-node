@@ -43,16 +43,22 @@ $ node index.js
 	├── README.md
 	├── LICENSE.md
 	├── CONTRIBUTING.md
-	├── out/
 	├── src/
-	|   ├── icons/
-	|   ├── assets/
-	|   |   ├── img/
-	|   |   ├── scripts/
-	|   |   |   └── script.js
-	|   |   └── styles/
-	|   |       ├── modules/
-	|   |       └── style.styl
+	|   ├── app/
+	|   |   ├── controllers/
+  |   |   |   ├── atuhController.js
+  |   |   |   ├── index.js
+  |   |   |   └── projectController.js 
+	|   |   ├── middlewares/
+	|   |   |   ├── auth.js
+	|   |   ├── models/
+	|   |	  |   ├── user.js
+  |   |   |   └── user.js
+	|   |   ├── config/
+	|   |   |   ├── auth.json
+  |   |   |   └── mail.json
+	|   |   └── modules/
+	|   |       └── user.js
 	|   ├── partials/
 	|   |   ├── footer.pug
 	|   |   └── header.pug
