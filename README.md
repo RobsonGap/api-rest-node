@@ -37,44 +37,6 @@ $ node index.js
 - MongoDB O MongoDB é um banco de dados orientado a documentos (document database) no formato JSON, [MongoDB](https://docs.mongodb.com/manual/tutorial/)
 
     
-## Folders Structure
-
-	.
-	├── README.md
-	├── LICENSE.md
-	├── CONTRIBUTING.md
-	├── src
-	|   ├── app
-	|   |   ├── controllers
-  |   |   |   ├── atuhController.js
-  |   |   |   ├── index.js
-  |   |   |   └── projectController.js 
-	|   |   ├── middlewares
-	|   |   |   ├── auth.js
-	|   |   ├── models
-	|   |	  |   ├── user.js
-  |   |   |   └── user.js
-	|   |   ├── config
-	|   |   |   ├── auth.json
-  |   |   |   └── mail.json
-	|   |   └── modules
-	|   |       └── user.js
-	|   ├── partials
-	|   |   ├── footer.pug
-	|   |   └── header.pug
-	|   ├── layouts
-	|   |   └── default.pug
-	|   ├── projects.pug
-	|   └── index.pug
-	├── gulpfile.js
-	├── package.json
-	├── projects.json
-	├── .editorconfig
-	└── .gitignore
-    
-    
-
-
 
 > API REST<3
 
