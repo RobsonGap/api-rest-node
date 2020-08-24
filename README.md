@@ -1,6 +1,6 @@
 # API REST NODE.JS
 
-> Projeto descolado <3
+> A ideia deste projeto e praticar e aprender conceitos e padrões JavaScript e treinar uma aplicação que alimenta um Front-End <3
 
 ## Run the project locally
 
