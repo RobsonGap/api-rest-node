@@ -25,9 +25,11 @@ $ node index.js
 
 ## Stack
 
-- Task Runner: [Live Server](http://tapiov.net/live-server/)
-- HTML Template Engine: [Pug] (https://pugjs.org/api/getting-started.html)
-- CSS Processors: [Stylus](http://stylus-lang.com/)
+- Simulando um Servidor local com o : [Live Server](http://tapiov.net/live-server/)
+- bcrypt encripitando dados e senhas : [Live Server](https://github.com/kelektiv/node.bcrypt.js/)
+- Express recursos para API : [Express](https://expressjs.com/pt-br/)
+- File System ou FS : [FS](https://nodejs.org/api/fs.html#fs_file_system)
+- Jsonwebtoken gerando um toke para codificar acesso : [Jsonwebtoken](https://jwt.io/)
 
 
 
