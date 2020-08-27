@@ -11,7 +11,13 @@ router.use(authMiddleware);
 
 
 router.get('/', async (req, res) => {
-    res.send({  user: req.userId });
+    try {
+      const projects = await Project.find();
+
+      return res.send({ projects });
+    } catch (err) {
+        return res.status(400).send({ error: 'Error loading projects' });
+    }
 });
 
 router.get('/:projectId', async (req, res) => {
