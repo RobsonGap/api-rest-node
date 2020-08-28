@@ -61,6 +61,6 @@ Want to contribute? [Follow these recommendations](https://github.com/RobsonGap/
 
 
 ## License
-[MIT License](https://github.com/RobsonGap/api-rest-node/blob/master/LICENSE) © [Robson Alves](http://.com/)
+[MIT License](https://github.com/RobsonGap/api-rest-node/blob/master/LICENSE) © [Robson Alves](https://github.com/RobsonGap)
 
 
