@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# API REST NODE.JS
 
-You can use the [editor on GitHub](https://github.com/RobsonGap/api-rest-node/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+> A ideia deste projeto e praticar e aprender conceitos e padrões JavaScript e treinar uma aplicação que alimenta um Front-End <3
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Run the project locally
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+**1 -** Prepare the evironment:
+ 
+ ```sh
+ $ npm install 
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**2 -** Clone the project and install the dependecies:
 
-### Jekyll Themes
+```sh
+$ git clone git@github.com:RobsonGap/api-rest-node.git
+$ cd api-rest-node
+$ npm install
+```
+**3 --** Run static server and livereload:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RobsonGap/api-rest-node/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+```sh
+$ node index.js
+```
 
-### Support or Contact
+## Stack
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- Simulando um Servidor local com o : [Live Server](http://tapiov.net/live-server/)
+- bcrypt encripitando dados e senhas : [Bcrypt](https://github.com/kelektiv/node.bcrypt.js/)
+- Express recursos para API : [Express](https://expressjs.com/pt-br/)
+- File System ou FS : [FS](https://nodejs.org/api/fs.html#fs_file_system)
+- Jsonwebtoken gerando um toke para codificar acesso : [Jsonwebtoken](https://jwt.io/)
+- Mongoose modelagem elegante de objetos mongodb para node.js:[Mongoose](https://mongoosejs.com/)
+- Nodemailer é um módulo para aplicativos Node.js para permitir fácil como o envio de e-mail:[Nodemailer](https://nodemailer.com/about/)
+- Nodemailer-express-handlebars é um plugin útil para Nodemailer que permite que você use modelos handlebars em seus e-mails HTML:[Nodemailer-express-handlebars](https://nicholaspretorius.github.io/til0025/)
+- Path O módulo fornece muita funcionalidade muito útil para acessar e interagir com o sistema de arquivos.path:[PATH](https://nodejs.dev/learn/the-nodejs-path-module)
+- MongoDB O MongoDB é um banco de dados orientado a documentos (document database) no formato JSON, [MongoDB](https://docs.mongodb.com/manual/tutorial/)
+
+    
+
+> API REST<3
+
+## Versioning
+
+To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
+
+## Contributing
+Find on our [roadmap](https://github.com/csshortcut/csshortcut-app/issues/1) the next steps of the project ;)
+<br>
+Want to contribute? [Follow these recommendations](https://github.com/csshortcut/csshortcut-app/blob/master/CONTRIBUTING.md).
+
+
+
+## License
+[MIT License](https://github.com/csshortcurt/csshortcut-app/blob/master/LICENSE.md) © [Robson Alves](http://.com/)
+
+
