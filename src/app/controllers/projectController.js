@@ -32,7 +32,18 @@ router.get('/:projectId', async (req, res) => {
 
 router.post('/', async (req, res) => {
    try {
-    const project = await Project.create({ ...req.body, user: req.userId }); 
+    const { title, description, tasks } = req.body;
+    
+    const project = await Project.create({ title, description, user: req.userId }); 
+
+    tasks.map(task => {
+        const projectTask = new Task({ ...task, project: project._id })
+    
+       projectTask.save().then(task =>  project.tasks.push(task));
+    });
+
+    await project.save();
+
 
     return res.send({ project });
    } catch (err) {
