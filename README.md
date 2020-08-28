@@ -41,18 +41,21 @@ $ node index.js
 
 > API REST<3
 
+
+
 ## Versioning
 
 To keep better organization of releases we follow the [Semantic Versioning 2.0.0](http://semver.org/) guidelines.
 
 ## Contributing
-Find on our [roadmap](https://github.com/csshortcut/csshortcut-app/issues/1) the next steps of the project ;)
+Find on our [roadmap](https://github.com/RobsonGap/api-rest-node/issues/1) the next steps of the project ;)
 <br>
-Want to contribute? [Follow these recommendations](https://github.com/csshortcut/csshortcut-app/blob/master/CONTRIBUTING.md).
+Want to contribute? [Follow these recommendations](https://github.com/RobsonGap/api-rest-node/CONTRIBUTING.md).
 
 
 
 ## License
-[MIT License](https://github.com/csshortcurt/csshortcut-app/blob/master/LICENSE.md) © [Robson Alves](http://.com/)
+[MIT License](https://github.com/RobsonGap/api-rest-node/blob/master/LICENSE) © [Robson Alves](https://github.com/RobsonGap)
+
 
 
