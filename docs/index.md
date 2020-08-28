@@ -56,11 +56,12 @@ To keep better organization of releases we follow the [Semantic Versioning 2.0.0
 ## Contributing
 Find on our [roadmap](https://github.com/RobsonGap/api-rest-node/issues/1) the next steps of the project ;)
 <br>
-Want to contribute? [Follow these recommendations](https://github.com/RobsonGap/api-rest-node/CONTRIBUTING.md).
+Want to contribute? [Follow these recommendations](https://github.com/RobsonGap/api-rest-node/blob/master/CONTRIBUTING.md).
 
 
 
 ## License
 [MIT License](https://github.com/RobsonGap/api-rest-node/blob/master/LICENSE) © [Robson Alves](https://github.com/RobsonGap)
+
 
 
