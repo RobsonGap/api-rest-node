@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "fs": "0.0.1-security",
     "init": "^0.1.2",
     "jsonwebtoken": "^8.5.1",
